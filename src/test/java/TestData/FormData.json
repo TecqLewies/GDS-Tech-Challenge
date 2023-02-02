@@ -1,0 +1,39 @@
+{
+  "eligibilityIncompleteQ1": "sg_registered",
+  "eligibilityIncompleteQ2": "turnover",
+
+  "contactDetailsValidName": "Lewies",
+  "contactDetailsValidJob": "Test Engineer",
+  "contactDetailsValidContactNum": "91239123",
+  "contactDetailsValidEmail": "lewiesthor@ecquaria.com",
+  "contactDetailsValidAltEmail": "lewiesthoryunsheng@ecquaria.com",
+  "contactDetailsInvalidContactNum": "912391",
+  "contactDetailsPresetPostalCode": "650320",
+  "contactDetailsPresetLevel": "03",
+  "contactDetailsPresetUnit": "33",
+  "contactDetailsPresetBuildingName": "",
+
+  "proposalProjectTitle": "testProjectTitle",
+  "proposalStartDate": "31 Mar 2023",
+  "proposalEndDate": "05 Jan 2024",
+  "proposalProjectDescription": "testProjectDescription",
+  "proposalInvalidStartDate": "31 Mar 2022",
+
+  "businessImpactFYEndDate": "31 Jan 2023",
+  "businessImpactOverseasSales1": "10000",
+  "businessImpactOverseasSales2": "20000",
+  "businessImpactOverseasSales3": "30000",
+  "businessImpactOverseasSales4": "40000",
+  "businessImpactOverseasInvestment1": "5000",
+  "businessImpactOverseasInvestment2": "15000",
+  "businessImpactOverseasInvestment3": "25000",
+  "businessImpactOverseasInvestment4": "35000",
+  "businessImpactRationale": "testSendRationale",
+  "businessImpactNonTangibleBenefits": "testSendBenefits",
+  "businessImpactInvalidFYEndDate": "31 Jan 2030",
+
+  "costVendorName": "NG TAY MENG",
+  "costUploadFileLocation": "C:\\Users\\ECQ1046\\GDS Tech Challenge\\src\\test\\java\\TestData\\test.xlsx",
+  "costEstimatedCost": "10000"
+
+}

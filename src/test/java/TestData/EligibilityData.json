@@ -1,0 +1,32 @@
+{
+  "question1": "Is the applicant registered in Singapore? *",
+  "question2": "Is the applicant's group sales turnover less than or equal to S$100m or is the applicant's group employment size less than or equal to 200? *",
+  "question3": "Does the applicant have at least 30% local equity? *",
+  "question4": "Is the target market that you are applying for a new market? A market is new if your company's revenue from there has not exceeded $100,000 for any of the last 3 years. *",
+  "question5": "Are all the following statements true for this project? *\nThe applicant has not started work on this project\nThe applicant has not made any payment to any supplier, vendor, or third party prior to applying for this grant\nThe applicant has not signed any contractual agreement with any supplier, vendor, or third party prior to applying for this grant",
+
+  "button1": "react-eligibility-sg_registered_check-true",
+  "button2": "react-eligibility-sg_registered_check-false",
+  "button3": "react-eligibility-turnover_check-true",
+  "button4": "react-eligibility-turnover_check-false",
+  "button5": "react-eligibility-global_hq_check-true",
+  "button6": "react-eligibility-global_hq_check-false",
+  "button7": "react-eligibility-new_target_market_check-true",
+  "button8": "react-eligibility-new_target_market_check-false",
+  "button9": "react-eligibility-started_project_check-true",
+  "button10": "react-eligibility-started_project_check-false",
+
+  "questionNum1": "1",
+  "questionNum2": "2",
+  "questionNum3": "3",
+  "questionNum4": "4",
+  "questionNum5": "5",
+
+  "questionCheck1": "sg_registered",
+  "questionCheck2": "turnover",
+  "questionCheck3": "global_hq",
+  "questionCheck4": "new_target_market",
+  "questionCheck5": "started_project",
+
+  "redirectURL": "https://www.gobusiness.gov.sg/business-grants-portal-faq/get-a-grant/"
+}

@@ -28,7 +28,7 @@ mvn test -Dcucumber.options="--tag '@Tag'"
 Where @Tag can be changed to whichever tags found in the feature files
 
 ## Libraries
-This project was done using Java as the programming language of choice, Cucumber as a BDD tool and jUnit as the unit testing framework. Selenium was used for UI testing of web elements and Hamcrest matchers were used for assertions.
+This project was done using Java as the programming language of choice, Cucumber as a BDD tool and jUnit as the unit testing framework. Selenium was used for UI testing of web elements and Hamcrest matchers were used for assertions. Extent reports was also used to introduce a cleaner, more readable report.
 
 | Programming language | Version |
 | --- | --- |
@@ -42,6 +42,7 @@ This project was done using Java as the programming language of choice, Cucumber
 | Hamcrest | 2.2 |
 | Selenium-java | 4.8.0 |
 | GSON | 2.10.1 |
+| Extentreports-cucumber7-adapter | 1.9.2 |
 
 | WebDrivers | Version |
 | --- | --- |
@@ -70,8 +71,6 @@ Scenarios for each feature file were tagged accordingly to the type of testing t
 ### Non-functional testing
 For the purpose of this project, only functional testing was done with regards to the system. Ideally, non-functional testing should also be planned for and conducted for such a system. It can include performance testing to simulate web traffic to the system, and determining how well the system is able to handle varying loads. Security testing can also be done such as penetration testing to identify vulnerabilities especially as the system under test is handling sensitive personal data.
 
-### Reporting
-At the moment, the test script does not include any reporting libraries to facilitate and enhance the test reporting of test results. While in-built reporting tools in Cucumber is able to meet our needs at the moment, we can include other libraries that can perform this task better. They include libraries such as Allure which makes the test results more readable and easily visualised.
 
 ### Service improvements
 As it stands, the system under test is able to perform its task as intended. However, one area which can be slow is during the loading of main page, after the applicant logs into their CorpPass. It currently takes around 20-30 seconds to load and represents 30-40% of each test case runtime. Additively, this results in a large time commitment just waiting for the page to load. If resources allow for it, it would be good to invest effort into increasing the efficiency of the page loading
@@ -108,4 +107,6 @@ Test failed - 9
 
 Test skipped - 24
 
-A testDocumentation.xlsx has been attached that specifies the passed/failed/skipped for each test case and user story in more detail, including test description and test steps.
+A testDocumentation.xlsx has been attached that specifies the passed/failed/skipped for each test case and user story in more detail, including test description and test steps. 
+
+An extent report can also be found under /src/test/java/reports/ which has the in-built funcitonality of visualising the test script results. It has been configured to save each report with datetime appended to the filename such that testers and their team can compare between runs easier.

@@ -107,6 +107,6 @@ Test failed - 9
 
 Test skipped - 24
 
-A testDocumentation.xlsx has been attached that specifies the passed/failed/skipped for each test case and user story in more detail, including test description and test steps. 
+A test document 'GDS Tech Challenge.xlsx' has been attached that specifies the passed/failed/skipped for each test case and user story in more detail, including test description and test steps. It can be found under /src/test/java/
 
 An extent report can also be found under /src/test/java/reports/ which has the in-built funcitonality of visualising the test script results. It has been configured to save each report with datetime appended to the filename such that testers and their team can compare between runs easier.

@@ -8,6 +8,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features="src/test/java/Features",
                 glue="StepDefinition",
                 tags= "@Smoke",
-                plugin = {"pretty", "html:target/cucumber-report/cucumber.html"})
+                plugin = {"pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 public class TestRunner {
 }
